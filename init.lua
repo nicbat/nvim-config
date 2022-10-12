@@ -1,9 +1,9 @@
 -- [[ init.lua ]]
 
-local o = vim.o
-local bo = vim.bo
+--[[ local o = vim.o ]]
+--[[ local bo = vim.bo ]]
 local g = vim.g
-local wo = vim.wo
+--[[ local wo = vim.wo ]]
 
 require("user.options")
 require("user.plugins")
