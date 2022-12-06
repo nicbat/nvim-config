@@ -55,8 +55,10 @@ return packer.startup(function(use)
 	use 'kyazdani42/nvim-tree.lua' -- file explorer
 
 	-- dashboard
-	packer.use 'glepnir/dashboard-nvim'
+	use 'glepnir/dashboard-nvim'
 
+	-- debug
+	use 'mfussenegger/nvim-dap'
 	-- git
 	use { -- gitsigns
 		'lewis6991/gitsigns.nvim',
@@ -108,6 +110,7 @@ return packer.startup(function(use)
 	use "nvim-treesitter/playground"
 	use "JoosepAlviste/nvim-ts-context-commentstring"
 	use "windwp/nvim-ts-autotag"
+	use "nvim-treesitter/nvim-treesitter-context"
 	-- themes
 	use 'tjdevries/colorbuddy.nvim' -- plugin that a lot of themes use
 	use 'bkegley/gloombuddy'
