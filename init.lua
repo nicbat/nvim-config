@@ -7,10 +7,8 @@ local g = vim.g
 
 require("user.options")
 require("user.plugins")
-require("user.cmp")
 require("user.keymaps")
 require("user.colorscheme")
-require("user.lsp")
 require("user.fidget")
 require("user.telescope")
 require("user.treesitter")
@@ -18,6 +16,8 @@ require("user.autopairs")
 require("user.comment")
 require("user.nvim-tree")
 require("user.dashboard")
+require("user.lspzero")
+--[[ require("user.mason") ]]
 -- vim.cmd "colorscheme gloombuddy"
 --
 -- staline --

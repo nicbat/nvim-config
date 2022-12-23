@@ -1,5 +1,4 @@
--- vim.cmd "colorscheme nightfox"
--- vim.g.colors_name = 'nightfox'
+--[[ local colorscheme = "nightfox" ]]
 
-local colorscheme = "nightfox"
+local colorscheme = "catppuccin"
 require("user.colorschemes." ..colorscheme)
