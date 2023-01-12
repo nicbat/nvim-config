@@ -9,7 +9,6 @@ require("user.options")
 require("user.plugins")
 require("user.keymaps")
 require("user.colorscheme")
-require("user.fidget")
 require("user.telescope")
 require("user.treesitter")
 require("user.autopairs")
@@ -17,6 +16,9 @@ require("user.comment")
 require("user.nvim-tree")
 require("user.dashboard")
 require("user.lspzero")
+require("user.lsp")
+require("user.java")
+require("user.fidget")
 --[[ require("user.mason") ]]
 -- vim.cmd "colorscheme gloombuddy"
 --
